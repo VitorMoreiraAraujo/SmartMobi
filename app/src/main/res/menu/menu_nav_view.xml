@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="Engarrafamento">
+            <menu>
+                <item
+                    android:id="@+id/mMaisTransito"
+                    android:icon="@drawable/ic_baseline_info"
+                    android:title="Mais Trânsito" />
+
+                <item
+                    android:id="@+id/mMenosTransito"
+                    android:icon="@drawable/ic_baseline_info"
+                    android:title="Menos Trânsito" />
+            </menu>
+
+        </item>
+
+    </group>
+
+    <item
+        android:title="Alagamento"
+        android:id="@+id/mAlagamento"
+        android:icon="@drawable/ic_baseline_train"/>
+
+
+</menu>
