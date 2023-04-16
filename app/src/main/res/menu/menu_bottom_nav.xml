@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Ônibus"
+        android:icon="@drawable/ic_baseline_directions_bus"
+        android:id="@+id/mOnibus"/>
+
+    <item
+        android:title="Bicicleta"
+        android:icon="@drawable/ic_baseline_pedal_bike"
+        android:id="@+id/mBicicleta"/>
+
+    <item
+        android:title="Trem"
+        android:icon="@drawable/ic_baseline_train"
+        android:id="@+id/mTrem"/>
+
+</menu>
