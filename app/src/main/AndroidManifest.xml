@@ -12,6 +12,9 @@
         android:theme="@style/Theme.SmartMobi"
         tools:targetApi="31">
         <activity
+            android:name=".TransportesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuPrincipalActivity"
             android:exported="false" />
         <activity
@@ -19,10 +22,7 @@
             android:exported="false" />
         <activity
             android:name=".SobreActivity"
-            android:exported="true" >
-
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

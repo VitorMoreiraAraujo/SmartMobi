@@ -26,7 +26,7 @@ public class MenuPrincipalActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.idToolbarMenu);
 
 
-        
+
 
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
