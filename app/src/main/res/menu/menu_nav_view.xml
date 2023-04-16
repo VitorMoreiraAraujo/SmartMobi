@@ -5,12 +5,12 @@
             <menu>
                 <item
                     android:id="@+id/mMaisTransito"
-                    android:icon="@drawable/ic_baseline_info"
+                    android:icon="@drawable/ic_baseline_emoji_transportation"
                     android:title="Mais Trânsito" />
 
                 <item
                     android:id="@+id/mMenosTransito"
-                    android:icon="@drawable/ic_baseline_info"
+                    android:icon="@drawable/ic_baseline_no_transfer"
                     android:title="Menos Trânsito" />
             </menu>
 
@@ -21,7 +21,7 @@
     <item
         android:title="Alagamento"
         android:id="@+id/mAlagamento"
-        android:icon="@drawable/ic_baseline_train"/>
+        android:icon="@drawable/ic_baseline_flood"/>
 
 
 </menu>
