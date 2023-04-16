@@ -1,15 +1,21 @@
 package com.example.smartmobi;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toolbar;
 
 public class MenuPrincipalActivity extends AppCompatActivity {
 
     CardView cardView;
+    Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +23,10 @@ public class MenuPrincipalActivity extends AppCompatActivity {
 
         cardView = findViewById(R.id.idCardView);
 
+        toolbar = findViewById(R.id.idToolbarMenu);
+
+
+        
 
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,5 +35,29 @@ public class MenuPrincipalActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.menu_toolbar_principal, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.mLogin:
+                startActivity( new Intent(getApplicationContext(), LoginActivity.class));
+                break;
+            case R.id.mSobre:
+                startActivity( new Intent(getApplicationContext(), SobreActivity.class));
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }
