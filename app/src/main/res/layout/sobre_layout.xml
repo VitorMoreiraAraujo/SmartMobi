@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/ic_baseline_arrow_back"
-            app:title="SmartMobi" />
+            app:title="Menu" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
