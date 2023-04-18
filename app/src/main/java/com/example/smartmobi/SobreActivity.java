@@ -7,9 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toolbar;
 
+import com.google.android.material.appbar.MaterialToolbar;
+
 public class SobreActivity extends AppCompatActivity {
 
-    Toolbar toolbar;
+    MaterialToolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

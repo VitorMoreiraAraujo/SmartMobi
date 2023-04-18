@@ -12,10 +12,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toolbar;
 
+import com.google.android.material.appbar.MaterialToolbar;
+
 public class MenuPrincipalActivity extends AppCompatActivity {
 
     CardView cardView;
-    Toolbar toolbar;
+    MaterialToolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +58,8 @@ public class MenuPrincipalActivity extends AppCompatActivity {
                 break;
             case R.id.mSobre:
                 startActivity( new Intent(getApplicationContext(), SobreActivity.class));
+                finish();
+                break;
         }
 
         return super.onOptionsItemSelected(item);
