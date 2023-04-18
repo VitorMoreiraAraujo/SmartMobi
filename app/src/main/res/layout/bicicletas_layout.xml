@@ -7,27 +7,27 @@
     tools:context=".BicicletasActivity">
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/idTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/idTabLayout"
         android:contentDescription="@string/bicicleta">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Benefícios"/>
+            android:text="Benefícios" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dicas"/>
-        
+            android:text="Dicas" />
+
     </com.google.android.material.tabs.TabLayout>
-    
+
     <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/idViewPager2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/idViewPager2"
-        android:layout_below="@id/idTabLayout"/>
+        android:layout_below="@id/idTabLayout" />
 
 </RelativeLayout>

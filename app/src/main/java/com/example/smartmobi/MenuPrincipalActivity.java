@@ -27,6 +27,8 @@ public class MenuPrincipalActivity extends AppCompatActivity {
 
         cardTransporte = findViewById(R.id.idCardViewT);
         cardNoticia = findViewById(R.id.idCardViewNoticia);
+        cardBicicleta = findViewById(R.id.idCardViewBicicleta);
+        cardTransito = findViewById(R.id.idCardViewTransito);
 
 
 
@@ -44,6 +46,30 @@ public class MenuPrincipalActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), TransportesActivity.class));
+                finish();
+            }
+        });
+
+        cardNoticia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), NoticiasActivity.class));
+                finish();
+            }
+        });
+
+        cardBicicleta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), BicicletasActivity.class));
+                finish();
+            }
+        });
+
+        cardTransito.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), TransitoActivity.class));
                 finish();
             }
         });

@@ -23,6 +23,8 @@ public class BicicletasActivity extends AppCompatActivity {
 
         myViewPagerAdapter = new MyViewPagerAdapter(this);
 
+        viewPager2.setAdapter(myViewPagerAdapter);
+
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
@@ -45,7 +47,6 @@ public class BicicletasActivity extends AppCompatActivity {
             @Override
             public void onPageSelected(int position) {
                 super.onPageSelected(position);
-
                 tabLayout.getTabAt(position).select();
             }
         });
