@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center_vertical"
+    android:orientation="vertical"
     tools:context=".DicasFragment">
 
     <TextView
@@ -43,8 +43,8 @@ Além de que a bicicleta tem que ser adequada ao sei biotipo e confortável"
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:justificationMode="inter_word"
         android:layout_margin="4dp"
+        android:justificationMode="inter_word"
         android:text="Use equipamentos e acessórios para garantir sua segunça pedalando, como luzes sinalisadores,
 buzina, até coisas mais caras como ciclocomputador"
         android:textSize="18sp" />
@@ -60,13 +60,11 @@ buzina, até coisas mais caras como ciclocomputador"
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:justificationMode="inter_word"
         android:layout_margin="4dp"
+        android:justificationMode="inter_word"
         android:text="O alongamento, além de colocar seu corpo para movimentar antes do treino, vai aquecer seus músculos e prepará-los para a carga da pedalada.
 Seu desempenho vai ser maior e seu corpo vai estar relaxado depois"
         android:textSize="18sp" />
-
-
 
 
 </LinearLayout>

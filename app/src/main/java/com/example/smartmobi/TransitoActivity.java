@@ -42,9 +42,7 @@ public class TransitoActivity extends AppCompatActivity {
                     case R.id.mMaisTransito:
                         getSupportFragmentManager().beginTransaction().replace(R.id.idConteiner, new MaisTransitoFragment()).commit();
                         break;
-                    case R.id.mMenosTransito:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.idConteiner, new MenosTransitoFragment()).commit();
-                        break;
+
                     case R.id.mAlagamento:
                         getSupportFragmentManager().beginTransaction().replace(R.id.idConteiner, new AlagamentoFragment()).commit();
                         break;

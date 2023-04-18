@@ -7,11 +7,6 @@
                     android:id="@+id/mMaisTransito"
                     android:icon="@drawable/ic_baseline_emoji_transportation"
                     android:title="Mais Trânsito" />
-
-                <item
-                    android:id="@+id/mMenosTransito"
-                    android:icon="@drawable/ic_baseline_no_transfer"
-                    android:title="Menos Trânsito" />
             </menu>
 
         </item>
