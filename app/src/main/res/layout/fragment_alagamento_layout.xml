@@ -1,19 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F4511E"
+    android:orientation="vertical"
     tools:context=".AlagamentoFragment">
 
 
     <TextView
-        android:layout_marginTop="300dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textAlignment="center"
-        android:text="Alagamento Fragment"
-        android:textSize="30sp"
-        android:textColor="#FFF"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="10 pontos de alagamento em SP para evitar na chuva"
+        android:textSize="23sp"
+        android:textStyle="bold" />
 
-</FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Avenida Aricanduva – Zona Leste SP"
+        android:textSize="19sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Avenida Professor Luiz Ignácio Anhaia Mello – Zona Leste SP"
+        android:textSize="19sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Avenida Alcântara Machado – Zona Leste SP"
+        android:textSize="19sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Avenida Celso Garcia – Zona Leste SP"
+        android:textSize="19sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Avenida do Estado – Zona Central e  Leste SP"
+        android:textSize="19sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Praça da Bandeira – Zona Central SP"
+        android:textSize="19sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Marginal Pinheiros – Zona Oeste SP"
+        android:textSize="19sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Avenida Marquês de São Vicente – Zona Oeste SP"
+        android:textSize="19sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Avenida Santo Amaro – Zona Sul SP"
+        android:textSize="19sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Avenida Professor Abraão de Morais – Zona Sul SP"
+        android:textSize="19sp"
+        android:textStyle="italic|bold" />
+
+    
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:id="@+id/idWebView"/>
+
+
+
+
+
+
+</LinearLayout>
