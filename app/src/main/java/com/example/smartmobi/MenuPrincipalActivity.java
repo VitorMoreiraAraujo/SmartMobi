@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -16,24 +17,33 @@ import com.google.android.material.appbar.MaterialToolbar;
 
 public class MenuPrincipalActivity extends AppCompatActivity {
 
-    CardView cardView;
+    CardView cardTransporte, cardNoticia, cardBicicleta, cardTransito;
     MaterialToolbar toolbar;
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu_principal_layout);
 
-        cardView = findViewById(R.id.idCardView);
+        cardTransporte = findViewById(R.id.idCardViewT);
+        cardNoticia = findViewById(R.id.idCardViewNoticia);
+
+
 
         toolbar = findViewById(R.id.idToolbarMenu);
+        setSupportActionBar(toolbar);
+
+
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
 
 
-        cardView.setOnClickListener(new View.OnClickListener() {
+        cardTransporte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), SobreActivity.class));
+                startActivity(new Intent(getApplicationContext(), TransportesActivity.class));
                 finish();
             }
         });
@@ -55,6 +65,7 @@ public class MenuPrincipalActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.mLogin:
                 startActivity( new Intent(getApplicationContext(), LoginActivity.class));
+                finish();
                 break;
             case R.id.mSobre:
                 startActivity( new Intent(getApplicationContext(), SobreActivity.class));
