@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical"
-    android:orientation="vertical"
     tools:context=".BeneficiosFragment">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:justificationMode="inter_word"
-        android:padding="12dp"
-        android:text="Andar de bicicleta é uma atividade saudável, que pode gerar inúmeros benefícios como:"
-        android:textSize="18sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,12 +12,22 @@
         android:gravity="center_horizontal|start"
         android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:padding="5dp"
+        android:text="Andar de bicicleta é uma atividade saudável, que pode gerar inúmeros benefícios como:"
+        android:textSize="20sp" />
+
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="EMAGRECIMENTO"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -34,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="MELHORA A RESISTÊNCIA MUSCULAR"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -42,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="DESENVOLVE O BEM-ESTAR"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -50,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="AUMENTA SEU FÔLEGO"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -58,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="TEM BAIXO IMPACTO EM SUAS ARTICULAÇÕES"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -66,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="AUMENTA SEU FÔLEGO"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -74,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="REDUZ O COLESTEROL"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -82,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="CONTROLA A GLICEMIA NO SANGUE"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -90,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="REGULA A PRESSÃO ARTERIAL"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -98,7 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="ELIMINA TOXINAS DO CORPO"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -106,7 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="MELHORA A CIRCULAÇÃO SANGUÍNEA"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -114,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="REJUVENESCE"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -122,7 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="AUXILIA NA RECUPERAÇÃO DE LESÕES ÓSSEAS E ARTRITE"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -130,7 +131,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="PREVINE MÁS CONDIÇÕES DE SAÚDE MENTAL"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -138,7 +139,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="MELHORA A CIRCULAÇÃO SANGUÍNEA"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -146,11 +147,11 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="AUMENTA A ESTAMINA"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
 
     </LinearLayout>
 
 
-</LinearLayout>
+</ScrollView>

@@ -7,6 +7,20 @@
     android:orientation="vertical"
     tools:context=".NoticiasActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idAppBarNoticia">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idToolbarNoticia"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back"
+            app:title="Notícias"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
     <ListView
         android:id="@+id/idListView"
         android:layout_width="match_parent"

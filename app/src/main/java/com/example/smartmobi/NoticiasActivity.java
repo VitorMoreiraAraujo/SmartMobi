@@ -2,6 +2,7 @@ package com.example.smartmobi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -13,13 +14,18 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.google.android.material.appbar.MaterialToolbar;
+
 public class NoticiasActivity extends AppCompatActivity {
     ListView listaNoticia;
+    MaterialToolbar toolbar;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.noticias_layout);
+        toolbar = findViewById(R.id.idToolbarNoticia);
 
         listaNoticia = findViewById(R.id.idListView);
 
@@ -32,6 +38,14 @@ public class NoticiasActivity extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.sptrans.com.br/noticias/ponto-no-tunel-santo-papa-joao-paulo-ii-na-regiao-do-anhangabau-sera-desativado-nos-dias-21-e-22/") );
                 intent.putExtra("a", i);
                 startActivity(intent);
+            }
+        });
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent(getApplicationContext(), MenuPrincipalActivity.class));
+                finish();
             }
         });
     }

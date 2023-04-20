@@ -18,17 +18,10 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/ic_baseline_arrow_back"
-            app:title="Menu" />
+            app:title="Sobre" />
     </com.google.android.material.appbar.AppBarLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="7dp"
-        android:text="SOBRE"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,7 +47,7 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="25dp"
-            android:src="#000" />
+            android:src="@drawable/ic_baseline_copyright" />
 
         <TextView
             android:layout_width="wrap_content"

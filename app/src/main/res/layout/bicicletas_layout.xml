@@ -5,12 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BicicletasActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idAppBarBicicleta">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idToolbarBicicleta"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back"
+            app:title="Bicicletas"/>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/idTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/bicicleta">
+        android:contentDescription="@string/bicicleta"
+        android:layout_below="@id/idAppBarBicicleta">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"

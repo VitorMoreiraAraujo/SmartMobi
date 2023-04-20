@@ -37,7 +37,7 @@ public class MenuPrincipalActivity extends AppCompatActivity {
 
 
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
 
 
