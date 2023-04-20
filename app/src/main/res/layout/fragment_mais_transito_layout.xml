@@ -1,141 +1,155 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+
     android:gravity="center_vertical"
     tools:context=".MaisTransitoFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:text="As rotas com maiores trânsitos em SP"
-        android:textSize="23sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:text="Avenidas Heitor Penteado, Dr. Arnaldo e Paulista"
-        android:textSize="19sp"
-        android:textStyle="italic|bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Localização da rota: Centro e Zona Oeste"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Bairros percorridos: Cerqueira César, Consolação, Jardim das Bandeiras e Sumarezinho"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Velocidade média: 12 km/h"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:text="Avenidas Braz Leme, Rudge e Rio Branco"
-        android:textSize="19sp"
-        android:textStyle="italic|bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Localização da rota: Centro e Zona Norte"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Bairros percorridos: Campos Elíseos, Moinho, Anhembi, Casa Verde e Vila Bianca"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Velocidade média: 11,7 km/h"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:text="Rua Vergueiro e Avenida Liberdade"
-        android:textSize="19sp"
-        android:textStyle="italic|bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Localização da rota: Centro"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Bairros percorridos: Vila Mariana, Paraíso, Bela Vista e Liberdade"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Velocidade média: 10,3 km/h"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:text="Avenidas Zaki Narchi, Santos Dumont, Tiradentes e Prestes Maia"
-        android:textSize="19sp"
-        android:textStyle="italic|bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Localização da rota: Centro e Zona Norte"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Bairros percorridos: Carandiru, Anhembi, Bom Retiro e Santa Efigênia"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:justificationMode="inter_word"
-        android:text="Velocidade média: 10 km/h"
-        android:textSize="16sp" />
+        android:orientation="vertical">
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="As rotas com maiores trânsitos em SP"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Avenidas Heitor Penteado, Dr. Arnaldo e Paulista"
+            android:textSize="19sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Localização da rota: Centro e Zona Oeste"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Bairros percorridos: Cerqueira César, Consolação, Jardim das Bandeiras e Sumarezinho"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Velocidade média: 12 km/h"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Avenidas Braz Leme, Rudge e Rio Branco"
+            android:textSize="19sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Localização da rota: Centro e Zona Norte"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Bairros percorridos: Campos Elíseos, Moinho, Anhembi, Casa Verde e Vila Bianca"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Velocidade média: 11,7 km/h"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Rua Vergueiro e Avenida Liberdade"
+            android:textSize="19sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Localização da rota: Centro"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Bairros percorridos: Vila Mariana, Paraíso, Bela Vista e Liberdade"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Velocidade média: 10,3 km/h"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Avenidas Zaki Narchi, Santos Dumont, Tiradentes e Prestes Maia"
+            android:textSize="19sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Localização da rota: Centro e Zona Norte"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Bairros percorridos: Carandiru, Anhembi, Bom Retiro e Santa Efigênia"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:justificationMode="inter_word"
+            android:text="Velocidade média: 10 km/h"
+            android:textSize="16sp" />
+
+    </LinearLayout>
 
 
-
-
-
-</LinearLayout>
+</ScrollView>

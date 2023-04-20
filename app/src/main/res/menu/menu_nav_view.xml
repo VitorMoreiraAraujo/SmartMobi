@@ -18,5 +18,10 @@
         android:id="@+id/mAlagamento"
         android:icon="@drawable/ic_baseline_flood"/>
 
+    <item
+        android:title="Menu Principal"
+        android:id="@+id/mMenuPrincipal"
+        android:icon="@drawable/ic_baseline_menu"/>
+
 
 </menu>
