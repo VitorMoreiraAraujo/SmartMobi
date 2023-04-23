@@ -6,7 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".TransportesActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idAppBarTransporte"
+        >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idToolbarTransporte"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back"
+            app:title="Notícias"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
     <FrameLayout
+        android:layout_below="@id/idAppBarTransporte"
         android:id="@+id/idConteiner"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
