@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9CC865"
     tools:context=".BicicletaFragment">
 
 
@@ -17,6 +18,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="7dp"
             android:text="Tipos de espaços para bicicletas"
+            android:textColor="#14897F"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -27,6 +29,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="3dp"
             android:text="Ciclovia :"
+            android:textColor="#14897F"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -38,6 +41,7 @@
             android:justificationMode="inter_word"
             android:padding="4dp"
             android:text="é uma pista de uso exclusivo de bicicletas e outros ciclos (veículos de pelo menos duas rodas e sem motor, como patinetes ou skates). São espaços separados fisicamente do tráfego comum;"
+            android:textColor="#fff"
             android:textSize="17sp" />
 
 
@@ -45,8 +49,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Ciclofaixa :"
             android:layout_margin="3dp"
+            android:text="Ciclofaixa :"
+            android:textColor="#14897F"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -58,6 +63,7 @@
             android:justificationMode="inter_word"
             android:padding="4dp"
             android:text=" uma parte da via de tráfego, calçada ou canteiro que é destinada à circulação exclusiva de bicicletas e outros ciclos. É delimitada por uma sinalização específica;"
+            android:textColor="#fff"
             android:textSize="17sp" />
 
 
@@ -65,12 +71,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Ciclofaixa de lazer:"
             android:layout_margin="3dp"
+            android:text="Ciclofaixa de lazer:"
+            android:textColor="#14897F"
             android:textSize="25sp"
             android:textStyle="bold" />
-
-
 
 
         <TextView
@@ -80,6 +85,7 @@
             android:justificationMode="inter_word"
             android:padding="4dp"
             android:text="espaços temporários, que são criados aos domingos e feriados, das 7h às 16h, junto a canteiros centrais ou à esquerda de determinadas vias da cidade. São faixas separadas do tráfego por elementos cones ou cavaletes e com sinalização que regulamentam seu uso pelos ciclistas;"
+            android:textColor="#fff"
             android:textSize="17sp" />
 
 
@@ -87,8 +93,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Calçada compartilhada :"
             android:layout_margin="3dp"
+            android:text="Calçada compartilhada :"
+            android:textColor="#14897F"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -100,6 +107,7 @@
             android:justificationMode="inter_word"
             android:padding="4dp"
             android:text="espaço sobre a calçada ou um canteiro central que, de forma simultânea, é destinado a pedestres, cadeirantes e ciclistas montados. Neste espaço, o pedestre tem a prioridade, desde que devidamente sinalizado;"
+            android:textColor="#fff"
             android:textSize="17sp" />
 
 
@@ -108,6 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Ciclorrota :"
+            android:textColor="#14897F"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -116,10 +125,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:justificationMode="inter_word"
             android:layout_margin="3dp"
+            android:justificationMode="inter_word"
             android:padding="4dp"
             android:text="via com volume de tráfego baixo e sinalização específica, que indica o compartilhamento entre veículos motorizados e bicicletas. Esses espaços têm velocidade máxima reduzida e são criados para facilitar a circulação das bikes, interligando ciclovias, ciclofaixas e outros pontos de interesse dos ciclistas;"
+            android:textColor="#fff"
             android:textSize="17sp" />
 
 
@@ -129,6 +139,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:text="Mapa de ciclovia de SP"
+            android:textColor="#14897F"
             android:textSize="24sp"
             android:textStyle="bold" />
 

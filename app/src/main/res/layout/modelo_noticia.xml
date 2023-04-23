@@ -21,8 +21,8 @@
             android:layout_centerHorizontal="true"
             android:justificationMode="inter_word"
             android:text="Ponto no Túnel Santo Papa João Paulo II na região do Anhangabaú será desativado nos dias 21 e 22"
-            android:textColor="#fff"
-            android:background="@color/black"
+            android:textColor="#9CC865"
+            android:background="#264B39"
             android:textSize="19sp"
             />
 

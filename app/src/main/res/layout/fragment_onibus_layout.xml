@@ -3,53 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".OnibusFragment"
     android:background="#9CC865"
-    android:gravity="center_vertical">
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".OnibusFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Região Norte:"
-            android:textSize="24dp"
-            android:textStyle="bold"
             android:textColor="#14897F"
-            />
-
-        <ImageView
-            android:layout_width="27dp"
-            android:layout_height="33dp"
-            android:layout_margin="5dp"
-            android:src="@drawable/ic_baseline_dangerous" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Alto índice de atraso para pegar ônibus"
-            android:textColor="#fff"
-            android:textSize="17sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Região Sul:"
             android:textSize="24dp"
-            android:textColor="#14897F"
             android:textStyle="bold" />
 
         <ImageView
@@ -70,15 +40,44 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Região Sul:"
+            android:textColor="#14897F"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="33dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_baseline_dangerous" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alto índice de atraso para pegar ônibus"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Região Leste:"
-            android:textSize="24dp"
             android:textColor="#14897F"
+            android:textSize="24dp"
             android:textStyle="bold" />
 
         <ImageView
@@ -99,8 +98,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -132,39 +131,39 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="7dp"
         android:text="Ônibus novos"
-        android:textSize="24dp"
         android:textColor="#14897F"
+        android:textSize="24dp"
         android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical|center_horizontal">
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="3dp"
-        android:text="637G-10"
-        android:textColor="#fff"
-        android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="637G-10"
+            android:textColor="#fff"
+            android:textSize="20sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="3dp"
-        android:text="6076-40"
-        android:textColor="#fff"
-        android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="6076-40"
+            android:textColor="#fff"
+            android:textSize="20sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="3dp"
-        android:text="6076-10"
-        android:textColor="#fff"
-        android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="6076-10"
+            android:textColor="#fff"
+            android:textSize="20sp" />
 
     </LinearLayout>
 
