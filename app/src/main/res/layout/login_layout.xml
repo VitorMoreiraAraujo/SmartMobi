@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#9CC865"
+    android:gravity="center_vertical"
     tools:context=".LoginActivity">
 
     <ImageView
         android:layout_width="300dp"
-        android:layout_height="260dp"
+        android:layout_height="300dp"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:src="#f3f3f3" />
+        android:src="@drawable/icone" />
 
     <EditText
         android:id="@+id/idUsuario"
@@ -20,11 +21,12 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:drawableEnd="#000"
-        android:hint="Insira seu email"
+        android:drawableEnd="@drawable/ic_baseline_account_box"
+        android:hint="Insira seu usuário"
         android:inputType="textEmailAddress"
         android:maxLength="50"
-        android:padding="6dp" />
+        android:padding="6dp"
+        />
 
     <EditText
         android:id="@+id/idSenha"
@@ -32,7 +34,7 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:drawableEnd="#000"
+        android:drawableEnd="@drawable/ic_baseline_lock"
         android:hint="Insira sua senha"
         android:inputType="textPassword"
         android:maxLength="10"
