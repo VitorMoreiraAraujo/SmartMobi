@@ -23,6 +23,7 @@
         android:id="@+id/idTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TabLayout"
         android:contentDescription="@string/bicicleta"
         android:layout_below="@id/idAppBarBicicleta">
 

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9CC865"
     tools:context=".DicasFragment">
 
     <LinearLayout
@@ -15,6 +16,7 @@
             android:layout_height="wrap_content"
             android:justificationMode="inter_word"
             android:padding="5dp"
+            android:textColor="#ECEBEB"
             android:text="Antes de pedalar em uma bika, eu irei dar alguma dicas: "
             android:textSize="20sp" />
 
@@ -23,6 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:text="ESCOLHER A BICICLETA ADEQUADA"
+            android:textColor="#14897F"
             android:textSize="22sp"
             android:textStyle="bold" />
 
@@ -31,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:justificationMode="inter_word"
+            android:textColor="#ECEBEB"
             android:text="Modelo simples se você quer passar por parques e ciclovias, mas se for participar de campeonatos e trilhas, é melhor se atentar a certas características,
 Além de que a bicicleta tem que ser adequada ao sei biotipo e confortável"
             android:textSize="18sp" />
@@ -40,6 +44,7 @@ Além de que a bicicleta tem que ser adequada ao sei biotipo e confortável"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:text="CUIDE DA SUA SEGURANÇA"
+            android:textColor="#14897F"
             android:textSize="22sp"
             android:textStyle="bold" />
 
@@ -50,6 +55,7 @@ Além de que a bicicleta tem que ser adequada ao sei biotipo e confortável"
             android:justificationMode="inter_word"
             android:text="Use equipamentos e acessórios para garantir sua segunça pedalando, como luzes sinalisadores,
 buzina, até coisas mais caras como ciclocomputador"
+            android:textColor="#ECEBEB"
             android:textSize="18sp" />
 
         <TextView
@@ -57,6 +63,7 @@ buzina, até coisas mais caras como ciclocomputador"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:text="FAÇA ALONGAMENTOS ANTES E DEPOIS DE PEDALAR"
+            android:textColor="#14897F"
             android:textSize="22sp"
             android:textStyle="bold" />
 
@@ -64,6 +71,7 @@ buzina, até coisas mais caras como ciclocomputador"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
+            android:textColor="#ECEBEB"
             android:justificationMode="inter_word"
             android:text="O alongamento, além de colocar seu corpo para movimentar antes do treino, vai aquecer seus músculos e prepará-los para a carga da pedalada.
 Seu desempenho vai ser maior e seu corpo vai estar relaxado depois"

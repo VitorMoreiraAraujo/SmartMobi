@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context=".AlagamentoFragment">
 
 <LinearLayout
@@ -18,6 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="10 pontos de alagamento em SP para evitar na chuva"
+        android:textColor="@color/fonte_titulo"
         android:textSize="23sp"
         android:textStyle="bold" />
 
@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="Avenida Aricanduva – Zona Leste SP"
+        android:textColor="@color/fonte_texto"
         android:textSize="19sp"
         android:textStyle="italic|bold" />
 
@@ -34,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="Avenida Professor Luiz Ignácio Anhaia Mello – Zona Leste SP"
+        android:textColor="@color/fonte_texto"
         android:textSize="19sp"
         android:textStyle="italic|bold" />
 
@@ -42,6 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="Avenida Alcântara Machado – Zona Leste SP"
+        android:textColor="@color/fonte_texto"
         android:textSize="19sp"
         android:textStyle="italic|bold" />
 
@@ -50,6 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="Avenida Celso Garcia – Zona Leste SP"
+        android:textColor="@color/fonte_texto"
         android:textSize="19sp"
         android:textStyle="italic|bold" />
 
@@ -58,6 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="Avenida do Estado – Zona Central e  Leste SP"
+        android:textColor="@color/fonte_texto"
         android:textSize="19sp"
         android:textStyle="italic|bold" />
 
@@ -66,6 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="Praça da Bandeira – Zona Central SP"
+        android:textColor="@color/fonte_texto"
         android:textSize="19sp"
         android:textStyle="italic|bold" />
 
@@ -74,6 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="Marginal Pinheiros – Zona Oeste SP"
+        android:textColor="@color/fonte_texto"
         android:textSize="19sp"
         android:textStyle="italic|bold" />
 
@@ -82,6 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="Avenida Marquês de São Vicente – Zona Oeste SP"
+        android:textColor="@color/fonte_texto"
         android:textSize="19sp"
         android:textStyle="italic|bold" />
 
@@ -90,6 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="Avenida Santo Amaro – Zona Sul SP"
+        android:textColor="@color/fonte_texto"
         android:textSize="19sp"
         android:textStyle="italic|bold" />
 
@@ -98,6 +107,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="Avenida Professor Abraão de Morais – Zona Sul SP"
+        android:textColor="@color/fonte_texto"
         android:textSize="19sp"
         android:textStyle="italic|bold" />
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#9CC865"
+    android:background="@color/fundo"
     tools:context=".MenuPrincipalActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -60,7 +60,7 @@
                         android:layout_margin="5dp"
                         android:clickable="true"
                         android:text="Transportes"
-                        android:textColor="#14897F"
+                        android:textColor="@color/fonte_titulo"
                         android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>

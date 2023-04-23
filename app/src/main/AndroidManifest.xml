@@ -17,7 +17,10 @@
             android:exported="false" />
         <activity
             android:name=".BicicletasActivity"
-            android:exported="false" />
+            android:exported="true">
+
+
+        </activity>
         <activity
             android:name=".NoticiasActivity"
             android:exported="false" />
@@ -27,6 +30,8 @@
         <activity
             android:name=".MenuPrincipalActivity"
             android:exported="true">
+
+
         </activity>
         <activity
             android:name=".LoginActivity"
