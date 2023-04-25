@@ -4,11 +4,9 @@
     android:layout_height="150dp"
     android:background="#264B39">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="140dp"
-        android:background="@drawable/transito"
-        android:scaleType="fitXY" />
+
+
+
 
     <TextView
         android:layout_width="wrap_content"
