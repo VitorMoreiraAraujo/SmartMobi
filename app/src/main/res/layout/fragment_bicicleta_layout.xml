@@ -41,7 +41,7 @@
             android:justificationMode="inter_word"
             android:padding="4dp"
             android:text="é uma pista de uso exclusivo de bicicletas e outros ciclos (veículos de pelo menos duas rodas e sem motor, como patinetes ou skates). São espaços separados fisicamente do tráfego comum;"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="17sp" />
 
 
@@ -63,7 +63,7 @@
             android:justificationMode="inter_word"
             android:padding="4dp"
             android:text=" uma parte da via de tráfego, calçada ou canteiro que é destinada à circulação exclusiva de bicicletas e outros ciclos. É delimitada por uma sinalização específica;"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="17sp" />
 
 
@@ -85,7 +85,7 @@
             android:justificationMode="inter_word"
             android:padding="4dp"
             android:text="espaços temporários, que são criados aos domingos e feriados, das 7h às 16h, junto a canteiros centrais ou à esquerda de determinadas vias da cidade. São faixas separadas do tráfego por elementos cones ou cavaletes e com sinalização que regulamentam seu uso pelos ciclistas;"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="17sp" />
 
 
@@ -107,7 +107,7 @@
             android:justificationMode="inter_word"
             android:padding="4dp"
             android:text="espaço sobre a calçada ou um canteiro central que, de forma simultânea, é destinado a pedestres, cadeirantes e ciclistas montados. Neste espaço, o pedestre tem a prioridade, desde que devidamente sinalizado;"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="17sp" />
 
 
@@ -129,7 +129,7 @@
             android:justificationMode="inter_word"
             android:padding="4dp"
             android:text="via com volume de tráfego baixo e sinalização específica, que indica o compartilhamento entre veículos motorizados e bicicletas. Esses espaços têm velocidade máxima reduzida e são criados para facilitar a circulação das bikes, interligando ciclovias, ciclofaixas e outros pontos de interesse dos ciclistas;"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="17sp" />
 
 

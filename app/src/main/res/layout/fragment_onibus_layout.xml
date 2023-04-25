@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Alto índice de atraso para pegar ônibus"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="17sp" />
 
     </LinearLayout>
@@ -61,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Alto índice de atraso para pegar ônibus"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="17sp" />
 
     </LinearLayout>
@@ -90,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Baixo índice de atraso para pegar ônibus"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="17sp" />
 
     </LinearLayout>
@@ -119,7 +119,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Médio índice de atraso para pegar ônibus"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="17sp" />
 
     </LinearLayout>
@@ -146,7 +146,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="3dp"
             android:text="637G-10"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="20sp" />
 
         <TextView
@@ -154,7 +154,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="3dp"
             android:text="6076-40"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="20sp" />
 
         <TextView
@@ -162,7 +162,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="3dp"
             android:text="6076-10"
-            android:textColor="#ECEBEB"
+            android:textColor="@color/fonte_texto"
             android:textSize="20sp" />
 
     </LinearLayout>
