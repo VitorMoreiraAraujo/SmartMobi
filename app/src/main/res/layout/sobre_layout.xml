@@ -23,15 +23,23 @@
     </com.google.android.material.appbar.AppBarLayout>
 
 
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:justificationMode="inter_word"
         android:padding="12dp"
         android:textColor="@color/fonte_texto"
-        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        android:textSize="18sp" />
+        android:text="Este programa é de auxílío para a população sobre o transporte em SP, ajudando em sua locomoção e o uso de transporte mais saudáveis
+e menos poluentes como a bicicleta, além de obter informações sobre trânsito, tipos de ciclofaixas, alagamentos e trazer nóticas em relação a mobilidade. O objetivo é deixar a população informada
+sobre as questões de mobilidade, fazendo ter rotas mais rápidas e menos estressantes.
+Este programa foi feito por Raquell Dezotti e Vitor Moreira Araujo, na ETEC Irmã Agostina no período noturno do de DS(Dsensvolvimento de Sistemas) na aula
+de PAM(Programação em Android Mobile)."
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,6 +66,7 @@
             android:textColor="@color/fonte_texto"
             android:text="04/2023"
             android:textSize="18sp" />
+    </LinearLayout>
     </LinearLayout>
 
 
